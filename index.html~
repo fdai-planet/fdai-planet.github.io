@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Fei Dai</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<img src="images/pic1.jpeg" width = 250/>
+						<h1>Fei Dai</h1>
+						<p>Graduate Student, Exoplanet Enthusiast<br />
+                        MIT/Princeton University
+						</a></p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Home</a></li>
+							<li><a href="#first">Research</a></li>
+							<li><a href="#second">Publications</a></li>
+							<li><a href="#cta">Bio</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Welcome!</h2>
+										</header>
+										<p> My name is Fei Dai (戴飞). I'm a 5th year graduate student in physics at MIT. Currently, I am on a long-term visit at Princeton University where I study exoplanets with my advisor <a href="https://scholar.princeton.edu/jwinn/home">Josh Winn </a>.</p>
+
+<p>The discovery and characterization of new, exciting planetary systems with  <a href="https://www.nasa.gov/mission_pages/kepler/main/index.html">Kepler and K2 </a> and the newly inaugurated  <a href="https://tess.mit.edu/">TESS </a>  mission is the focus of my research. Using both novel data analysis techniques and numerical simulations, I want to understand the composition, orbital architecture and atmospheric loss of planets which in turn tell us about their formation, evolution and habitability.  In order to figure out how extreme can planet formation be at the hottest end, I study the planets with shortest possible orbital period (hours to days). These "hot Earths" present an opportunity to look at processes such as tides, photoevaporation, star-planet interaction that govern planet formation and evolution in general but may be too slow/weak to be observable for longer period planets.</p>
+
+                                        <p>Picture on the right was taken in Jan 2017 at Salar de Uyuni, Bolivia. </p>
+										<ul class="actions">
+											<li><a href="files/cv.pdf" class="button primary">Curriculum Vitae</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/uyuni.jpeg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Research Highlights</h2>
+								</header>
+								<ul class="features">
+                                    
+									<li>
+                                        
+                                        
+                                        <span class="image" ><img src="images/k2.jpeg" width = 300  alt="" /></span>
+                                        
+                                            
+                                            
+                                        <ul class="actions">
+                                            <h3> <li><a href="k2.html" class="button">K2 Discoveries</a></li></h3>
+                                        </ul>
+                                        
+										<p>K2, the second phase of NASA Kepler mission, enabled us to discover many exciting planetary systems along the ecliptic.</p>
+                                        
+									</li>
+                                    
+                                    <li>
+                                        
+                                        
+                                        <span class="image"><img src="images/corot-7.jpeg" width = 300  alt="" /></span>
+                                        
+                                        
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="hot_earths.html" class="button">Hot Earths</a></li></h3>
+                                        </ul>
+                                        
+                                        <p>Our recent works studied the composition and orbital configuration of hot Earths which orbit their host stars with periods as short as a few hours.</p>
+                                        
+                                    </li>
+                                    
+                                    <li>
+                                        
+                                        
+                                        <span class="image"><img src="images/spot-crossing.jpeg" width = 300  alt="" /></span>
+                                        
+                                        
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="spot_crossings.html" class="button">Starspot-Crossings</a></li></h3>
+                                        </ul>
+                                        
+                                        <p>Starspots leave photometric signatures in planetary transit light curves which can unveal the stellar obliquity and magnetic acvity of the host stars.</p>
+                                        
+                                    </li>
+                                    
+                                    <li>
+                                        
+                                        
+                                        <span class="image"><img src="images/radius_gap.jpeg" width = 300  alt="" /></span>
+                                        
+                                        
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="radius_gap.html" class="button">Radius Gap</a></li></h3>
+                                        </ul>
+                                        
+                                        <p>We extended the study of planet radius distribution (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.10375">Fulton et al 2018</a>) from Sun-like stars to M-dwarf planets. Results suggests that photoevaporation rather than core-powered mass loss is the main driver for the observed radius gap.</p>
+                                        
+                                    </li>
+                                    
+                                    <li>
+                                        
+                                        
+                                        <span class="image"><img src="images/photoevaporation.jpeg" width = 300  alt="" /></span>
+                                        
+                                        
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="photoevaporation.html" class="button"> Photoevaporation</button></a></li></h3>
+                                        </ul>
+                                        
+                                        <p>We studied the process of photoevaporation (proposed to be responsible for the planet radius gap, see left) with hydrodynamic simulations and self-consistent heating and cooling.</p>
+                                        
+                                    </li>
+                                    
+                                    <li>
+                                        <iframe width="300" height="300" src="https://www.youtube.com/embed/r6gwWoOiXGY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="rw_aurigae.html" class="button">RW Aurigae</a></li></h3>
+                                        </ul>
+                                        
+                                        <p>A pair of young stars that likely underwent close encounters, a scenario that may explain the observed optical dimming, the tidal arms seen in the millimeter and a strong Fe emisson in X-ray.</p>
+                                        
+                                    </li>
+                                    
+								</ul>
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Publications</h2>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										
+										<strong>36</strong> All Publications
+									</li>
+									<li class="style2">
+										
+										<strong>8</strong> First-Authored
+									</li>
+									<li class="style3">
+										
+										<strong>573</strong> Citations
+									</li>
+									<li class="style4">
+										
+										<strong>14</strong> h-index
+									</li>
+									<li class="style5">
+										
+										<strong>19</strong> i10-index
+									</li>
+								</ul>
+                                
+                                <ul class="features">
+                                <ul class="actions">
+                                    <li><a href="files/publications.pdf" class="button primary" align ="center">Publication List</a></li>
+                                </ul>
+                                </ul>
+                                <p class="content">More up-to-date publication lists can be found here: </p>
+                                <ul class="features">
+                                    <li>
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?return_req=no_params&author=Dai,%20Fei&db_key=AST" class="button">NASA ADS</a></li></h3>
+                                        </ul>
+                                    
+                                    </li>
+                                    <li>
+                                    
+                                        <ul class="actions">
+                                            <h3> <li><a href="https://scholar.google.com/citations?user=hdz3hlkAAAAJ&hl=en" class="button">Google Scholar</a></li></h3>
+                                        </ul>
+                                        
+                                    </li>
+                                    <li>
+                                        
+                                        <ul class="actions">
+                                            <h3> <li><a href="https://www.researchgate.net/profile/Fei_Dai11" class="button">Researchgate</a></li></h3>
+                                        </ul>
+                                        
+                                    </li>
+                                 
+                                    </li>
+                                    
+                                </ul>
+								<footer class="major">
+   
+                                    
+								</footer>
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Brief Bio</h2>
+									<p> I joined MIT Department of Physics as a graduate student in 2014. I moved to Princeton Univerity as a visiting student in 2017 with my advisor <a href="https://scholar.princeton.edu/jwinn/home">Josh Winn </a>. I spend most of my time at Princeton nowadays. Previously, I received B.A. in Natural Science and M.Sci in Physics from University of Cambridge in 2014 with First Class Honours.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="bio.html" class="button primary">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+						<section>
+							<h2>Contact</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+                                <dd>Department of Astrophysical Sciences
+                                    ,4 Ivy Lane,
+                                    Princeton University, Princeton, NJ 08544</dd>
+								<dt>Phone</dt>
+								<dd>+1-781-290-9672</dd>
+								<dt>Email</dt>
+								<dd><a href="#">fd284@mit.edu</a></dd>
+                                <dd><a href="#">fdai@astro.princeton.edu</a></dd>
+							</dl>
+
+						</section>
+						<p class="copyright">&copy;  <a href="https://html5up.net">HTML5 UP. </a><a href="https://twitter.com/ajlkn">@ajlkn</a></p>
+                        
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

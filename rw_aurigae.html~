@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RW Aurigae</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>RW Aurigae</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+                                
+
+
+                                    <div>
+                                        <h1>The curious case of RW Aurigae</h1>
+                                        
+                                        
+                                        <p>RW Aurigae is composed of two young stars separated by about 200 AU. The primary was shown to be a Classical T-Tauri star. The system is curious because it displayed several unusual features:
+ 
+                                        <p>1. <a href="http://adsabs.harvard.edu/abs/2006A%26A...452..897C">Cabrit et al 2006 </a>  reported a 600-AU-long tidal arm trailing the disk of star A seen in millimeter wavelengths.
+                                     
+
+<figure>
+    <span><img src="images/rw_aurigae_cabrit.png" width="50%" alt="" title=""></span>
+    <figcaption>The tidal arm feature seen in millimeter wavelengths.
+    </figcaption>
+</figure>
+
+
+<p>
+  <p>2. <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.03745">Rodriguez et al 2016 </a> reported a long (180 days) and deep (2 magnitude) dimming of system in the optical. However, typical photometric variations of Classical T-Tauri stars only last for days and weeks with a depth less than 1 mag.
+
+<figure>
+    <span><img src="images/rw_aurigae_optical_dimming.png" width="50%" alt="" title=""></span>
+    <figcaption>The long and deep optical dimming of RW Aurigae (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1512.03745">Rodriguez et al 2016 </a> ).
+        </figcaption>
+</figure>
+
+
+<p>
+
+<p> We (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1502.06649">Dai et al 2015 </a>) tested if these strange features could be a result of a star-disc fly-by, where the gravitational pull of the secondary star disturbed the disc around the primary. We ran a suite of smooth-particle hydrodynamics simulations with different system parameters, we found a particular simulation which reproduced well the all the observed features of RW Aurigae including the tidal arm feature, the relative separation and velocity of the two stars, the line-profile of the system in various CO isotopologue emissions. Check out the movie below and notice the striking similarity to the observed structure.
+
+
+
+<iframe width="800" height="500" src="https://www.youtube.com/embed/r6gwWoOiXGY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                   
+                 <p>
+                 
+                 <p> More recently, ALMA observation of this system revealed additional structures within this system (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1804.09190">Rodriguez et al 2018 </a>) that may indicate the systems have undergone several episodes of close encounters in addition to the one we simulated in <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1502.06649">Dai et al 2015 </a>.
+                   
+                   <figure>
+                       <span><img src="images/alma_observation.png" width="50%" alt="" title=""></span>
+                       <figcaption>The ALMA observation of RW Aurigae reported by <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1804.09190">Rodriguez et al 2018 </a> revealed several additional features that may hint at multiple close encounters.
+                       </figcaption>
+                   </figure>
+                   
+                   
+                   <p>
+                   
+                   <p> Even more interestingly, the X-ray observation from <i>Chandra</i> (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1807.06995">Günther et al 2018 </a>) showed that the optical dimming is accompanied by higher X-ray absorbing column density. Moreover, they saw an emission feature at 6.63 keV during the dimming event. <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1807.06995">Günther et al 2018 </a> speculated that we may be seeing the break-up of planetesimals or a terrestrial planet! The disruption event generated the large grains responsible for the gray absorption, furthermore the grains might have enriched the stellar corona with iron that caused the 6.63 keV emission feature. The proposed disruption event may be ultimately linked to the dynamical upheaval stirred by the close encounter of the companion star.
+
+<figure>
+    <span><img src="images/rw_aurigae_x-ray.png" height="50%" alt="" title=""></span>
+    <figcaption>The observed X-ray spectra for RW Aurigae. Notice the absorption and emission feature at 6.63 keV during the 2017 dimming event (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1807.06995">Günther et al 2018 </a>).
+    </figcaption>
+</figure>
+
+
+
+							</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    
+                  
+                         <p class="actions">
+                            <a href="index.html" class="button">Home</a></li>
+                        </p>
+                        
+                        
+
+
+                    
+
+                </footer>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

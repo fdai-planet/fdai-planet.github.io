@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Photoevaporation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Photoevaporation</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+                                
+
+
+                                    <div>
+                                        <h1>Photoevaporation</h1>
+                                        
+                                        
+                                        <p> SInce photoevaporation is the likely culprit for producing radius gap (<a href="radius_gap.html"> see here</a>), we decide to investigate the process of photoevaporation further.
+                                    
+                                        
+                                        <p> Specifically, we wanted to address the following questions:
+                                        
+                                        <p> 1. How important is the detailed microphysics such as the photo-thermo-chemistry of dusts and molecules?
+                                        
+                                        <p>2. Can the ram pressure of a strong stellar wind quench photoevaporation as <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0811.0006">Murray-Clay et al 2009 </a> suggested?
+                                        <p>3. Can high energy radiation penetrate deep enough into the atmosphere? If so, what kind of high energy radiation is more important for driving the outflow: EUV or X-ray?
+                                        <p>4. How does the outflow look like? Is it isotropic? How do we look for it observationally?
+                                        
+                                        <p><a href="https://web.astro.princeton.edu/people/lile-wang"> Lile Wang </a> and I (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1710.03826"> Wang and Dai, 2017 </a>) carried out axisymmetric hydrodynamic simulations. We also incorporated a self-consistent chemical network: chemical species and their ionization state determines the heating and cooling mechanisms. We included FUV, EUV and X-ray (7eV to 1keV) photons. The amount and the time evolution of the high energy radiation was adopted from <a href="http://adsabs.harvard.edu/abs/2005ApJ...622..680R"> Ribas et al 2005</a>. Our planets have an Earth-like core with a convective H/He atmosphere and an isothermal layer on top. The hydrodynamics is done with <a href="https://princetonuniversity.github.io/athena/"> Athena++</a>.
+                                        
+                                        <video id="sampleMovie" width="100%" preload controls>
+                                            <source src="images/video.mp4" />
+                                        </video>
+                                        
+                                        <p>The temperature, density and velocity profile of a photoevaporating planet. Stellar irradiation is coming from the left of the page.</p>
+                                        
+                        
+                                        
+                                        <p> We found that EUV is the most important driver for photoevaporation: the kinetic energy imparted by the high energy photon is simply roughly hf - ionization energy. Hence in order to escape the gravitational potential of the planet, the energy of the photon has to reach some threshold value. FUV often do not have the required energy level.
+                                        
+                                        <p> X-ray seems less important: although X-rays have higher energies, X-rays also have smaller interaction cross sections than EUV photons. Hence X-rays tend to penetrate deeper into the atmosphere, where density is higher. With a higher density, collisional excitation and dusts present in the deeper atmosphere quickly reworks the energy to infrared radiation that escapes easily. Hence with X-ray alone, the atmosphere cannot reach the temperature high enough for hydrodynamic outflow.
+                                        
+                                        <p> We also found that stellar wind is not able to quench photoevaporation. In 1D simulation, the stellar wind is trended as a pressure term, and serve as a confining force. Naturally if this term is strong enough, hydrodynamic outflow can be quenched. However, in reality stellar wind only impinge the planet on the day side, in our 2D axisymmetric simulation, we can see that stellar wind drives the outflow to the night side.
+                                        
+                           
+                                        
+                                     
+                                        
+                                        
+                                        <figure>
+                                            <span><img src="images/photoevaporation.jpeg" width="50%" alt="" title=""></span>
+                                            
+                                            <figcaption>The rate of atmospheric loss (photoevaporation and thermal Parker wind) is strongly dependent on the planet's core mass, resulting a several different regimes of mass loss (see text).
+                                            </figcaption>
+                                        </figure>
+                                        <p>
+                                        
+                                        <p> By carrying out a suite of simulaitons with different initial conditions, we mapped out the timescale of photoevaporation as a function of planet core mass, envelope mass fraction and the amount of stellar high energy radiation. We identied three regimes of atmospheric loss:
+                                            <p>1. For planets less than ~3 M⊕, thermal Parker wind alone prevents them from having thick (larger than 0.01% by mass) H/He atmospheres.
+                                            
+                                            <p>2. On a 100 Myr timescale where the star still emit significant amount of high energy radiation, planets less than ~6 M⊕ will lose a significant fraction of its atmosphere due to photoevaporation.
+                                            
+                                           <p> 3. Planets with core mass larger than ~10 M⊕ are resistant to photoevaporation and Parker wind given their strong gravity.
+
+
+
+                                        <p> Applying the results to <i> Kepler</i>, we were able to reproduce the observed bimodal radius distribution as well as the large composition contrast of the   <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1206.4718">Kepler-36 </a> system (see below).
+
+<figure>
+    <span><img src="images/rp_observed_distribution.png" width="45%" alt="" title=""></span>
+     <span><img src="images/rp_simulated_distribution.png" width="50%" alt="" title=""></span>
+     <figcaption>Left: The observed planet occurrence rate as a function of planet radius and orbital peirods. Right: the results of our hydrodynamic simulations, producing a qualitatively similar distribution.
+    </figcaption>
+</figure>
+<p>
+
+							</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    
+                  
+                         <p class="actions">
+                            <a href="index.html" class="button">Home</a></li>
+                        </p>
+                        
+                        
+
+
+                    
+
+                </footer>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

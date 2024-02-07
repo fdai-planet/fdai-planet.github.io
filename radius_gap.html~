@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Radius Gap</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Radius Gap</h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+                                
+
+
+                                    <div>
+                                        <h1>The Radius Gap</h1>
+                                        
+                                        
+                                        <p> In 2017 , the California Kepler Survey (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.10375"> Fulton et al 2017</a>) revealed that the radii of small planets has a bimodal distribution (see below). One explanation is the photoevaporation by high energy radiation. EUV and X-ray can deposit heat into the atmosphere and drives an outflow that leads to mass loss (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1303.3899"> Owen and Wu 2013</a>,<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1305.0269"> Lopez and Fortney 2014</a>, <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1705.10810"> Owen and Wu 2017</a>). The lower peak of the radius distribtion comprises of rocky cores that have their H/He envelope completely stripped off by photoevaporation. Since high energy radiation diminishes after the 100 Myr (<a href="http://adsabs.harvard.edu/abs/2005ApJ...622..680R"> Ribas et al 2005</a>), larger planets with thicker H/He envelope may still keep a few % envelope by the time the high energy radiation shuts down. The H/He envelope of a few % envelope is able to significantly inflate these planets radii pushing them to the higher peak of the distribution.
+                                        
+                                        <p> An alternative explanation was proposed by <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1708.01621">Ginzburg et al 2017</a>: the luminosity of the cooling contracting core alone is able to drive significant atmospheric loss sculpting out the observed radius gap. <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1708.01621">Ginzburg et al 2017</a> further proposed that a simple way to distinguish 1) photoevaporation and 2) core-powered atmospheric loss is to examine the radius distribution across different stellar types. Photoevaporation, which is powered by the high-energy radiation, should see a strong dependence on stellar types given that different types of stars give off different proportion of its energy in high energy radiation. On the other hand, core-powered atmospheric erosion should be the same as long as the bolometric insolation (i.e. planets' equilibrium temperature) is held constant.
+                                        
+                                        <figure>
+                                            <span><img src="images/fulton_gap.png" width="45%" alt="" title=""></span>
+                                            <span><img src="images/mdwarf_gap.png" width="45%" alt="" title=""></span>
+                                            <figcaption>Left: The bimodal radius distribution of sub-Neptune planets around Sun-like stars with a gap at about 1.8 R⊕ (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1703.10375"> Fulton et al 2017</a>). Right: The radius distribution of M-dwarf planets (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1710.03239">Hirano, Dai et al 2017 </a>). The radius gap is also present in M dwarf planets indicating that whatever process responsible for the radius gap must also operate for M dwarf planets.
+                                            </figcaption>
+                                        </figure>
+                                        <p>
+                                        
+                                        <p> To compare photoevaporation and core-powered mass loss, we looked at the radius distribution of planets around M dwarfs which are known to be more active than Sun-like stars and gives off a larger fraction of their energy in high energy radiation. In our recent work led by my collaborator Teruyuki Hirano (<a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1710.03239">Hirano, Dai et al 2017 </a>) we reported 16 new planets around M dwarfs which represents a substantial addition to existing sample ~80 planets around M dwarf. Since spectroscopic parameters of M dwarf are notoriously difficult to obtain. We also performed a uniform analysis of all known M dwarf planets. The radius gap is also present in M dwarf planets indicating that whatever process responsible for the radius gap must also operate for M dwarf planets.
+
+
+
+
+                                    
+                                    </div>
+
+
+                                <p>
+                                
+                     
+                     
+                     <div>
+                         <h1>Photoevaporation Desert</h1>
+                         
+                         
+                         <p> We then investigated the location of the so-called “photoevaporation desert” which is a lack of planet between 2-4R⊕ at highest insolation. For Sun-ike the photoevaporation desert identified by  <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.05220"> Lundkvist et al 2016 </a> has a boundary at about 650 Earth insolation level F⊕.
+                         
+                         <figure>
+                             <span><img src="images/lundkvist.png" width="100%" alt="" title=""></span>
+                            
+                             <figcaption>The photoevaporation desert, i.e. a lack of planet between 2-4R⊕ at the highest insolation (larger than 650F⊕ for Sun-like stars), is shown in the grey box ( <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.05220"> Lundkvist et al 2016 </a>).
+                             </figcaption>
+                         </figure>
+                         
+                         <p>
+                         
+                         
+                         <p> We made similar plots for M-dwarf planets splitting between early M dwarf and mid-late M dwarfs (Teff = 3500K). Note that the blue box corresponds to the “photoevaporation desert” identified by <a href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.05220"> Lundkvist et al 2016 </a> around Sun-like stars. We can see that the “photoevaporation desert” occurs at a lower bolometric insolation level compared to Sun-like stars. This indicates that M dwarfs seem to be more effective at reducing the size of their planets, a telltale sign that the photoevaporation is the main driver for the radius gap. In the opposing case of core-powered mass loss, the photoevaporation desert should occur at the same bolometric insolation level. This should not be a selection effect because closer-in but larger planets should be much easier to detect from transit surveys. Also notice the three outliers HATS-6b and Kepler-45b are hot Jupiter where gravity is strong enough that photoevaporation can not operate efficiently. K2-33 is a young system ~10 Myr, it is likely still undergoing photoevaporation.
+
+
+<figure>
+    <span><img src="images/insolation_Rp_earlyM.jpg" width="45%" alt="" title=""></span>
+    <span><img src="images/insolation_Rp_midM.jpg" width="45%" alt="" title=""></span>
+    <figcaption>The “photoevaporation desert” occurs at a lower bolometric insolation level compared to Sun-like stars, a telltale sign that the photoevaporation, rather than core-powered mass loss, is the main driver for the radius gap.
+    </figcaption>
+</figure>
+
+<p>
+
+
+
+
+
+
+
+							</section>
+
+
+
+					</div>
+
+				<!-- Footer -->
+                <footer id="footer">
+                    
+                  
+                         <p class="actions">
+                            <a href="index.html" class="button">Home</a></li>
+                        </p>
+                        
+                        
+
+
+                    
+
+                </footer>
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
