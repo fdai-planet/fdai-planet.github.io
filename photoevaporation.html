@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>Photoevaporation</h1>
+						<h1>Photoevaporation in Self-Consistent Hydrodynamic Simulations</h1>
 					</header>
 
 				<!-- Main -->
@@ -31,35 +31,33 @@
 
 
                                     <div>
-                                        <h1>Photoevaporation</h1>
+                                        
+                                        <p> Photoevaporation is a leading explanation for the observed bimodal radius distribution of sub-Neptune planets (<a style="color:blue" href="radius_gap.html"> see here</a>), we set out to investigate this process in greater detail.
 
 
-                                        <p> Since photoevaporation is the likely culprit for producing the bimodal radius distribution of small planets (<a style="color:blue" href="radius_gap.html"> see here</a>), we decide to investigate the process of photoevaporation further.
+                                        <p> Specifically, we aimed to address the following questions:
 
+                                        <p> 1. How important is the detailed microphysics, such as the photo-thermo-chemistry of dust and molecules?
 
-                                        <p> Specifically, we wanted to address the following questions:
+                                        <p>2. Can the ram pressure of a strong stellar wind quench photoevaporation, as suggested by <a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0811.0006">Murray-Clay et al 2009 </a>?
+                                        <p>3. Can high-energy radiation penetrate deeply enough into the atmosphere? If so, which component is more important for driving the outflow: EUV or X-ray?
+                                        <p>4. What is the morphology of the outflow? Is it isotropic, and how can we detect it observationally?
 
-                                        <p> 1. How important is the detailed microphysics such as the photo-thermo-chemistry of dusts and molecules?
-
-                                        <p>2. Can the ram pressure of a strong stellar wind quench photoevaporation as <a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:0811.0006">Murray-Clay et al 2009 </a> suggested?
-                                        <p>3. Can high energy radiation penetrate deep enough into the atmosphere? If so, what kind of high energy radiation is more important for driving the outflow: EUV or X-ray?
-                                        <p>4. How does the outflow look like? Is it isotropic? How do we look for it observationally?
-
-                                        <p><a style="color:blue" href="https://web.astro.princeton.edu/people/lile-wang"> Lile Wang </a> and I (<a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1710.03826"> Wang and Dai, 2017 </a>) carried out axisymmetric hydrodynamic simulations. We also incorporated a self-consistent chemical network, as chemical species and their ionization state determines the heating and cooling mechanisms. We included FUV, EUV and X-ray (7eV to 1keV) photons. The amount and the time evolution of the high energy radiation was adopted from <a style="color:blue" href="http://adsabs.harvard.edu/abs/2005ApJ...622..680R"> Ribas et al 2005</a>. Our planets have an Earth-like core with a convective H/He atmosphere and an isothermal layer on top. The hydrodynamics is computed with <a style="color:blue" href="https://princetonuniversity.github.io/athena/"> Athena++</a>.
+                                        <p><a style="color:blue" href="https://kiaa.pku.edu.cn/info/1010/8071.htm"> Lile Wang </a> and I (<a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1710.03826"> Wang and Dai, 2017 </a>) carried out axisymmetric hydrodynamic simulations. We incorporated a self-consistent chemical network, since chemical species and their ionization states regulate the heating and cooling processes. The simulations included FUV, EUV, and X-ray photons (7 eV–1 keV), with fluxes and time evolution adopted from <a style="color:blue" href="http://adsabs.harvard.edu/abs/2005ApJ...622..680R"> Ribas et al 2005</a>. The modeled planets consist of Earth-like cores with convective H/He atmospheres topped by an isothermal layer. Hydrodynamics was computed using <a style="color:blue" href="https://princetonuniversity.github.io/athena/"> Athena++</a>.
 
                                         <center><video id="sampleMovie" width="100%" preload controls>
                                             <source src="images/video.mp4" />
                                         </video></center>
 
-                                        <p>The temperature, density and velocity profile of a photoevaporating planet. Stellar irradiation is coming from the left of the page.</p>
+                                        <p>Temperature, density, and velocity profiles of a photoevaporating planet. Stellar irradiation enters from the left of the page.</p>
 
 
 
-                                        <p> We found that EUV is the most important driver for photoevaporation: the kinetic energy imparted by the high energy photon is simply roughly hf - ionization energy. Hence in order to escape the gravitational potential of the planet, the energy of the photon has to reach the requisite energy level. FUV generally does not have enough energy.
+                                        <p> We found that EUV photons are the dominant driver of photoevaporation. The kinetic energy imparted to the gas is approximately hf - ionization energy. In order to escape the gravitational potential of the planet, the photon energy must exceed the threshold required to overcome the planet’s gravitational potential. FUV photons generally lack sufficient energy to do so.
 
-                                        <p> X-ray seems less important: although X-rays have higher energies, X-rays also have smaller interaction cross sections than EUV photons. Hence X-rays tend to penetrate deeper into the atmosphere, where density is higher. With a higher density, collisional excitation and dusts present in the deeper atmosphere quickly rework the energy to infrared radiation that escapes easily. Hence with X-ray alone, the atmosphere cannot reach a temperature high enough for hydrodynamic outflow.
+                                        <p> X-rays, while more energetic, play a lesser role. Their smaller interaction cross-sections allow them to penetrate deeper into the atmosphere, where densities are higher. In these regions, collisional excitation and dust efficiently reprocess the energy into infrared radiation that escapes, preventing the gas from reaching temperatures high enough to sustain hydrodynamic outflow.
 
-                                        <p> We also found that stellar wind is not able to quench photoevaporation. In a 1D simulation, the stellar wind is treated as a pressure term, and serves as a confining force. Naturally, if this term is strong enough, hydrodynamic outflow can be quenched. However, in reality stellar wind only impinges the planet on the day-side. In our 3D simulation, we can see that stellar wind directs the outflow to the night side but does not quench it.
+                                        <p> We also found that stellar wind does not quench photoevaporation. In 1D models, the wind acts as a confining pressure that can suppress outflows if strong enough. In reality, however, stellar wind impacts only the day side. Our 3D simulations show that while the wind redirects the outflow toward the night side, it does not extinguish it.</p>
 
 
 
@@ -69,26 +67,26 @@
                                         <center><figure>
                                             <span><img src="images/photoevaporation.jpeg" width="50%" alt="" title=""></span>
 
-                                            <figcaption>The rate of atmospheric loss (photoevaporation and thermal Parker wind) is strongly dependent on the planet's core mass, resulting a several different regimes of mass loss (see text).
+                                            <figcaption>The rate of atmospheric loss (photoevaporation and thermal Parker wind) depends strongly on a planet’s core mass, leading to distinct regimes of mass loss.
                                             </figcaption>
                                         </figure></center>
                                         <p>
 
-                                        <p> By carrying out a suite of simulations with different initial conditions, we mapped out the timescale of photoevaporation as a function of planet core mass, envelope mass fraction and the amount of stellar high energy radiation. We identified three regimes of atmospheric loss:
-                                            <p>1. For planets less than ~3 M⊕, thermal Parker wind alone prevents them from having thick (larger than 0.01% by mass) H/He atmospheres.
+                                        <p> By carrying out a suite of simulations with varying initial conditions, we mapped the timescale of photoevaporation as a function of core mass, envelope mass fraction, and stellar high-energy flux. We identified three regimes of atmospheric loss:
+                                            <p>1. Low-mass planets (< ~3 M⊕): Thermal Parker winds alone prevent them from retaining thick H/He envelopes (>0.01% by mass).
 
-                                            <p>2. On a 100 Myr timescale where the star still emits a substantial amount of high energy radiation, planets less than ~6 M⊕ will lose a significant fraction of their atmosphere due to photoevaporation.
+                                            <p>2. Intermediate-mass planets (~3 to ~6 M⊕): On ~100 Myr timescales, when stars still emit strong high-energy radiation, these planets lose a substantial fraction of their atmospheres via photoevaporation.
 
-                                           <p> 3. Planets with a core mass larger than ~10 M⊕ are resistant to photoevaporation and Parker wind thanks to their strong gravity.
+                                            <p>3. High-mass planets (> ~10 M⊕): Their strong gravity renders them largely resistant to both photoevaporation and Parker winds.
 
 
 
-                                        <p> Applying the results to the planets discovered by <i> Kepler</i>, we were able to reproduce the observed bimodal radius distribution as well as the large composition contrast of the   <a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1206.4718">Kepler-36 </a> system (see below).
+                                        <p> Applying these results to Kepler planets, we successfully reproduced both the observed bimodal radius distribution and the pronounced compositional contrast in the  <a style="color:blue" href="http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1206.4718">Kepler-36 </a> system (see below).
 
 <center><figure>
     <span><img src="images/rp_observed_distribution.png" height =350 alt="" title=""></span>
      <span><img src="images/rp_simulated_distribution.png" height =360 alt="" title=""></span>
-     <figcaption>Left: The observed planet occurrence rate as a function of planet radius and orbital peirods. Right: our hydrodynamic simulations produced a qualitatively similar distribution.
+     <figcaption>Left: Observed planet occurrence rate as a function of radius and orbital period. Right: Hydrodynamic simulations reproduce a qualitatively similar distribution.
     </figcaption>
 </figure></center>
 <p>
